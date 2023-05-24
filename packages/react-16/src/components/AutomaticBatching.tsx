@@ -31,8 +31,8 @@ const AutomaticBatching = () => {
 
             <button
                 onClick={() => {
-                    setCount1(count => count + 1);
                     setTimeout(() => {
+                        setCount1(count => count + 1);
                         setCount2(count => count + 1);
                     }, 0)
                 }}
