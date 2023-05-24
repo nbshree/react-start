@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention,@typescript-eslint/no-explicit-any */
 import { Link, Outlet } from "react-router-dom";
+import Concurrency1 from "../Concurrency1";
 
 const Layout = () => {
   return (
@@ -25,6 +26,12 @@ const Layout = () => {
         </div>
         <div>
           <Link to="/MyUseLayoutEffect">MyUseLayoutEffect</Link>
+        </div>
+        <div>
+          <Link to="/Concurrency1">Concurrency1</Link>
+        </div>
+        <div>
+          <Link to="/Concurrency2">Concurrency2</Link>
         </div>
       </div>
       <div style={{ flex: 1 }}>
