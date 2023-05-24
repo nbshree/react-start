@@ -7,8 +7,7 @@ import AutomaticBatching from "./page/AutomaticBatching";
 import MySuspense from "./page/MySuspense";
 import MyUseDeferredValue from "./page/MyUseDeferredValue";
 import MyUseLayoutEffect from "./page/MyUseLayoutEffect";
-import Concurrency1 from "./page/Concurrency1";
-import Concurrency2 from "./page/Concurrency2";
+import Concurrency from "./page/Concurrency";
 
 const router = createBrowserRouter([
   {
@@ -44,12 +43,8 @@ const router = createBrowserRouter([
         element: <MyUseLayoutEffect />,
       },
       {
-        path: "/Concurrency1",
-        element: <Concurrency1 />,
-      },
-      {
-        path: "/Concurrency2",
-        element: <Concurrency2 />,
+        path: "/Concurrency",
+        element: <Concurrency />,
       },
     ],
   },
