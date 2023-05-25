@@ -20,6 +20,9 @@ const Layout = () => {
           <Link to="/AutomaticBatching">AutomaticBatching</Link>
         </div>
         <div>
+          <Link to="/MySuspenseSwr">MySuspenseSwr</Link>
+        </div>
+        <div>
           <Link to="/MySuspense">MySuspense</Link>
         </div>
         <div>

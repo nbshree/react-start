@@ -8,6 +8,7 @@ import MySuspense from "./page/MySuspense";
 import MyUseDeferredValue from "./page/MyUseDeferredValue";
 import MyUseLayoutEffect from "./page/MyUseLayoutEffect";
 import Concurrency from "./page/Concurrency";
+import MySuspenseSwr from "./page/MySuspenseSwr";
 
 const router = createBrowserRouter([
   {
@@ -32,11 +33,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/MySuspense",
-        element: (
-          <Suspense fallback={<div>loading。。。。</div>}>
-            <MySuspense />
-          </Suspense>
-        ),
+        element: <MySuspense />,
+      },
+      {
+        path: "/MySuspenseSwr",
+        element: <MySuspenseSwr />,
       },
       {
         path: "/MyUseLayoutEffect",
