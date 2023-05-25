@@ -7,7 +7,7 @@ import MySuspense from "./components/MySuspense";
 function App() {
   return (
     <div className="App">
-      <MySuspense />
+      <AutomaticBatching />
     </div>
   );
 }
